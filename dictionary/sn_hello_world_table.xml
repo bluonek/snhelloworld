@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" extends="cmdb_ci" label="Hello World Table" max_length="40" name="sn_hello_world_table" type="collection"/>
+    <element attributes="live_feed=true" extends="cmdb_ci" label="Hello World Table" max_length="40" name="sn_hello_world_table" type="collection">
+        <element label="Branch A" max_length="256" name="branch_a" type="string"/>
+    </element>
 </database>
